@@ -1,5 +1,5 @@
 ---
-abstract: ~
+abstract: 'DBIx::DBHResolver mixin for DBIx::Skinny.'
 author:
   - 'Atsushi Kobayashi <nekokak _at_ gmail _dot_ com>'
 build_requires:
@@ -21,7 +21,8 @@ no_index:
     - xt
 requires:
   DBIx::DBHResolver: 0
+  DBIx::Skinny: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/nekokak/DBIx-Skinny-Mixin-DBHResolver.git
-version: 0.02
+version: 0.03
